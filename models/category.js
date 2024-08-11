@@ -13,7 +13,7 @@ const categorySchema = mongoose.Schema({
     required: true,
   }
 });
-
+// Line needed below
 const Category = mongoose.model('Category', categorySchema);
 
 module.exports = Category;
