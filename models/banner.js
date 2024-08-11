@@ -6,6 +6,6 @@ const bannerSchema = mongoose.Schema({
     required: true,
   },
 });
-const Banner = mongoose.model("Banner", bannerSchema); // Mongoose changes "Banner" to "banners"
+const Banner = mongoose.model("Banner", bannerSchema); // Mongoose changes "Banner" to "banners" automatically
 
 module.exports = Banner;
